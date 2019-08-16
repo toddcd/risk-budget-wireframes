@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New/Edit Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="new-edit-portfolio.css">
+</head>
+
+<body>
+<nav role="navigation">Nav</nav>
+<main role="main">
+    <header>
+        <h1>New/Edit</h1>
+        <p>[<em>add/edit portfolio details page</em>]</p>
+    </header>
+    <section>
+        <div>
+            <label>Upload Porfolio CSV with performance data </label>
+            <input type="file">
+        </div>
+    </section>
+    <section>
+        <form id="record-bike">
+            <div class="form-section">
+                <label>Portfolio Name</label>
+                <input type="text" name="ame" placeholder="name">
+            </div>
+            <div class="form-section">
+                <label>Date</label>
+                <input type="text" name="date" placeholder="date">
+            </div>
+            <hr/>
+            <div class="fund-list-container">
+                <ul class="fund-list">
+                    <ui class="fund-item">
+                        <div>
+                            <h4>Electronic Arts Inc <a href="https://www.google.com/search?client=firefox-b-1-d&q=EA+stock" target="_blank">(EA)</a></h4>
+                            <div class="fund-details">
+                                <div class="detail">
+                                    <label>Expected Return</label>
+                                    <input type="text"  name="return" placeholder="return">
+                                </div>
+                                <div class="detail">
+                                    <label>Expected Risk</label>
+                                    <input type="text" name="risk" placeholder="risk">
+                                </div>
+                                <div class="detail">
+                                    <label>Weight</label>
+                                    <input type="text" name="weight" placeholder="weight">
+                                </div>
+                            </div>
+                        </div>
+                    </ui>
+
+                    <ui class="fund-item">
+                        <div>
+                            <h4>Baidu Inc <a href="https://www.google.com/search?client=firefox-b-1-d&q=BIDU" target="_blank">(BIDU)</a></h4>
+                            <div class="fund-details">
+                                <div class="detail">
+                                    <label>Expected Return</label>
+                                    <input type="text"  name="return" placeholder="return">
+                                </div>
+                                <div class="detail">
+                                    <label>Expected Risk</label>
+                                    <input type="text" name="risk" placeholder="risk">
+                                </div>
+                                <div class="detail">
+                                    <label>Weight</label>
+                                    <input type="text" name="weight" placeholder="weight">
+                                </div>
+                            </div>
+                        </div>
+                    </ui>
+
+                    <ui class="fund-item">
+                        <div>
+                            <h4>Spotify Technology SA <a href="https://www.google.com/search?client=firefox-b-1-d&tbm=fin&ei=WslWXeCXK-qOggfDu72wBA&q=SPOT+sctock&oq=SPOT+sctock&gs_l=finance-immersive.3...6508.13779.0.14235.13.13.0.0.0.0.117.1098.12j1.13.0....0...1c..64.finance-immersive..0.4.318...81j81i5k1j81i8k1.0.aQ-D0H3jT_g#scso=_aclWXaSEOMG3ggf0s7fQCQ6:0" target="_blank">(SPOT)</a></h4>
+                            <div class="fund-details">
+                                <div class="detail">
+                                    <label>Expected Return</label>
+                                    <input type="text"  name="return" placeholder="return">
+                                </div>
+                                <div class="detail">
+                                    <label>Expected Risk</label>
+                                    <input type="text" name="risk" placeholder="risk">
+                                </div>
+                                <div class="detail">
+                                    <label>Weight</label>
+                                    <input type="text" name="weight" placeholder="weight">
+                                </div>
+                            </div>
+                        </div>
+                    </ui>
+
+                </ul>
+            </div>
+            <hr>
+            <button type="submit">Save</button>
+            <button type="submit">Analyze</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </section>
+</main>
+<footer role="content-info">TD3 Studios</footer>
+</body>
+
+</html>
